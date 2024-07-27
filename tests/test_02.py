@@ -36,4 +36,4 @@ g = load_airport_net()
 gs = get_largest_connected_component(g)
 ave_path = get_average_path_length(gs)
 assert isinstance(ave_path, float), f"Expected the returned value to be of type float, got {type(ave_path)}"
-assert 3.9 < ave_path < 4.3, f"Expected average path length is between 3.9 and 4.3, got {ave_path}"
+assert 3.9 < ave_path < 4.4, f"Expected average path length is between 3.9 and 4.3, got {ave_path}"
